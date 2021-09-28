@@ -35,3 +35,9 @@ module "resource-group" {
   rg-location = "eastus2"
   # insert required variables here
 }
+  module "resource-group" {
+  source  = "app.terraform.io/Pooja1892/resource-group/azurerm"
+  version = "1.0.1"
+  rg-name = "reource-mod2"
+  # insert required variables here
+}
