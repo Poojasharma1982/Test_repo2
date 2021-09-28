@@ -41,10 +41,9 @@ module "resource-group" {
   rg-name = "reource-mod2"
   # insert required variables here
 }
-     module "resource-group1" {
+  module "resource-group2" {
   source  = "app.terraform.io/Pooja1892/resource-group/azurerm"
   version = "1.0.1"
   rg-name = var.prov-rg-name
   # insert required variables here
 }
-
